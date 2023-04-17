@@ -1,4 +1,4 @@
-# Robotics - UNAL - LAB2
+# Robotics - UNAL - Primeros Pasos ROS
 ## Requirements
 Modern robotics relies on the versatile middleware known as ROS (Robotic Operative System). Some of the most useful tools in robotics run in this framework. Learning ROS could lead to insanity (jikes...) but fortunately with time and patience (tons of), all of you young padawans will master the power of ROS.
 
