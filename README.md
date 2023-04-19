@@ -19,7 +19,7 @@ There are a couple of ways to run Linux:
  En
 
 
-
+## Instaacion con linux nativo
 For this course, the Linux of choice is [Ubuntu 20.04 LTS](https://ubuntu.com/download/desktop "Ubuntu 20.04 LTS"). In this [link](https://www.tecmint.com/install-ubuntu-20-04-desktop/ "link") you will find a good installation tutorial.
 
 <p align="center">
