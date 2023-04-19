@@ -11,6 +11,15 @@ There are a couple of ways to run Linux:
 - Docker :whale2: (Too new)
 - Windows subsystem for linux :trollface: (Fancy, but it has some compatibility issues, and has GUI only in Windows 11)
 
+## Configuracion con máquina virtual
+
+ En este caso se asume que la el sistema operativo linux así como ROS es instalado sobre una máquina virtual. 
+ Existen diferentes herramientas para virtualizar escritorios  como son: virtual box, WMare o parralels.  En este caso se ha selecconado la herrmienta de WM-ware.
+ 
+ En
+
+
+
 For this course, the Linux of choice is [Ubuntu 20.04 LTS](https://ubuntu.com/download/desktop "Ubuntu 20.04 LTS"). In this [link](https://www.tecmint.com/install-ubuntu-20-04-desktop/ "link") you will find a good installation tutorial.
 
 <p align="center">
