@@ -32,12 +32,15 @@ VMware es un hipervisor basado en servidor bien establecido, pero también vende
 VMware Workstation incluye hipervisores de tipo 2. A diferencia de un hipervisor de tipo 1, que reemplaza el SO subyacente por completo, un hipervisor de tipo 2 se ejecuta como una aplicación en el SO de desktop y permite a los usuarios de desktop ejecutar un segundo SO encima de su SO principal (host).
 
 VMware Workstation [link](  https://www.vmware.com/es/products.html "link") viene en dos versiones:
+
 [![wm-vare.png](https://i.postimg.cc/C5kyNXkL/wm-vare.png)](https://postimg.cc/1VmYRWvL)
-Workstation Player (enlace externo a IBM) es una versión sin costo que admite un único sistema operativo invitado.
-Workstation Pro (enlace externo a ibm.com) admite varios sistemas operativos invitados y se integra con las herramientas de gestión de virtualización empresarial de VMware.
+
+Workstation Player  es una versión sin costo que admite un único sistema operativo invitado.
+Workstation Pro  admite varios sistemas operativos invitados y se integra con las herramientas de gestión de virtualización empresarial de VMware. Y WM-ware fusion es la aplcacion disponible para mac-OS.
+
+Solo hay una cosa mejor que tener un segundo SO en su computadora desktop: tener un segundo SO que pueda intercambiar datos con el primero. Ahí es donde entra en juego VMware Tools. Es una parte fundamental de cualquier entorno de VMware Workstation. Permite que el SO invitado que se ejecuta dentro del hipervisor de tipo 2 funcione mejor con el SO host. 
  
- 
- Primero se debe instalar vm-ware en [link](https://www.tecmint.com/install-ubuntu-20-04-desktop/ "link")
+ Primero se debe descargar wm-ware worstation player [link](https://www.vmware.com/es/products/workstation-player.html "link").
  
 
 
