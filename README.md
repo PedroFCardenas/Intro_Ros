@@ -13,13 +13,35 @@ There are a couple of ways to run Linux:
 
 ## Configuracion con máquina virtual
 
- En este caso se asume que la el sistema operativo linux así como ROS es instalado sobre una máquina virtual. 
- Existen diferentes herramientas para virtualizar escritorios  como son: virtual box, WMare o parralels.  En este caso se ha selecconado la herrmienta de WM-ware.
+ En este caso se asume que el sistema operativo linux así como ROS es instalado sobre una máquina virtual. 
+ Existen diferentes herramientas para virtualizar escritorios  como son: virtual box, WMare o paralells.  En este caso se    ha seleccionado la herramienta de WM-ware.
  
- En
+ 
+ 
+ 
+ VMware es un sistema de virtualización por software que proporciona un ambiente de simulación de la ejecución de varios ordenadores dentro de otro de manera simultánea. 
+ 
+ El software de virtualización crea una capa de abstracción sobre el hardware de la computadora que permite que los elementos de hardware de una sola computadora (procesadores, memoria, almacenamiento y más) se dividan en múltiples computadoras virtuales, comúnmente llamadas máquinas virtuales (VM). Cada máquina virtual ejecuta su propio sistema operativo (SO) y se comporta como una computadora independiente, aunque se ejecuta en una parte del hardware informático subyacente existente.
+
+Como se puede imaginar, la virtualización permite utilizar el hardware de forma más eficiente y ofrece un mayor retorno de inversión del hardware de una empresa. También permite a los proveedores de la nube, ya sea pública o privada, prestar servicios a más usuarios con su hardware informático físico existente.
+
+Virtualización de desktop
+VMware es un hipervisor basado en servidor bien establecido, pero también vende software que virtualiza los sistemas operativos de desktop. Esta sección abarca parte de ese software y cómo funciona.
+
+¿Qué es VMware Workstation?
+VMware Workstation incluye hipervisores de tipo 2. A diferencia de un hipervisor de tipo 1, que reemplaza el SO subyacente por completo, un hipervisor de tipo 2 se ejecuta como una aplicación en el SO de desktop y permite a los usuarios de desktop ejecutar un segundo SO encima de su SO principal (host).
+
+VMware Workstation [link](  https://www.vmware.com/es/products.html "link") viene en dos versiones:
+[![wm-vare.png](https://i.postimg.cc/C5kyNXkL/wm-vare.png)](https://postimg.cc/1VmYRWvL)
+Workstation Player (enlace externo a IBM) es una versión sin costo que admite un único sistema operativo invitado.
+Workstation Pro (enlace externo a ibm.com) admite varios sistemas operativos invitados y se integra con las herramientas de gestión de virtualización empresarial de VMware.
+ 
+ 
+ Primero se debe instalar vm-ware en [link](https://www.tecmint.com/install-ubuntu-20-04-desktop/ "link")
+ 
 
 
-## Instaacion con linux nativo
+## Instalación con linux nativo
 For this course, the Linux of choice is [Ubuntu 20.04 LTS](https://ubuntu.com/download/desktop "Ubuntu 20.04 LTS"). In this [link](https://www.tecmint.com/install-ubuntu-20-04-desktop/ "link") you will find a good installation tutorial.
 
 <p align="center">
