@@ -73,14 +73,14 @@ Un archivo de imagen de disco (ISO) del instalador
 [![wm-02.png](https://i.postimg.cc/nzHtHpj8/wm-02.png)](https://postimg.cc/yJrGjqyn)
  
 Haga clic en Siguiente.
-Introduzca su clave de producto.
 
 Cree un nombre de usuario y una contraseña.
 
-Haga clic en Siguiente.
+Introduzca el nombre de una máquina virtual y especifique una ubicación para guardar los archivos de la máquina virtual. 
 
-Introduzca el nombre de una máquina virtual y especifique una ubicación para guardar los archivos de la máquina virtual. Haga clic en Socido.
+Luego:
 Establezca el tamaño de disco de la máquina virtual, seleccione si desea almacenar el disco virtual como un único archivo o dividir el disco virtual en archivos de 2 GB y haga clic en Máquelo .
+[![wm-03-a.png](https://i.postimg.cc/YqcB96mf/wm-03-a.png)](https://postimg.cc/SjGv1zdJ)
 Compruebe el resto de opciones de configuración de la máquina virtual:
 Memoria : permite cambiar la cantidad de memoria asignada a la máquina virtual.
 Procesadores: cambie el número de procesadores, el número de núcleos por procesador y el motor de virtualización.
@@ -89,7 +89,7 @@ Adaptador de red: configúrelo en modo de puente, NAT o solo host, o personalice
 Controlador USB.
 Tarjeta de sonido.
 Pantalla : habilite los gráficos 3D.
- 
+[![wm-03.png](https://i.postimg.cc/9fbnYTMS/wm-03.png)](https://postimg.cc/DWW62S1d)
 Haga clic en Finalizar.
 Cuando la máquina virtual está encendida, se inicia la VMware Tools de datos. Se le solicitará que reinicie la máquina virtual una vez que se complete la instalación de Tools.
  
