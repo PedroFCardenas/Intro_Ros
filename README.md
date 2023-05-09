@@ -36,13 +36,65 @@ VMware Workstation [link](  https://www.vmware.com/es/products.html "link") vien
 [![wm-vare.png](https://i.postimg.cc/C5kyNXkL/wm-vare.png)](https://postimg.cc/1VmYRWvL)
 
 Workstation Player  es una versión sin costo que admite un único sistema operativo invitado.
-Workstation Pro  admite varios sistemas operativos invitados y se integra con las herramientas de gestión de virtualización empresarial de VMware. Y WM-ware fusion es la aplcacion disponible para mac-OS.
+Workstation Pro  admite varios sistemas operativos invitados y se integra con las herramientas de gestión de virtualización empresarial de VMware. Y WMware fusion es la aplcacion disponible para mac-OS.
 
 Solo hay una cosa mejor que tener un segundo SO en su computadora desktop: tener un segundo SO que pueda intercambiar datos con el primero. Ahí es donde entra en juego VMware Tools. Es una parte fundamental de cualquier entorno de VMware Workstation. Permite que el SO invitado que se ejecuta dentro del hipervisor de tipo 2 funcione mejor con el SO host. 
  
- Primero se debe descargar wm-ware worstation player [link](https://www.vmware.com/es/products/workstation-player.html "link").
+ Paso 1: Primero se debe descargar wm-ware worstation player [link](https://www.vmware.com/es/products/workstation-player.html "link").
  
+ Paso 2: Haz clic en el botón 'Descargar VMware Workstation player' para iniciar sesión en el portal con los datos de acceso que recibiste por correo electrónico.
 
+ 
+ Paso 3: Abre el archivo de instalación de VMware Workstation player.
+ Paso 4: Haz clic en Next.
+ Paso 5: Acepta el acuerdo de licencia.
+ Paso 6: Elige la ubicación deseada para la instalación y haz clic en Next.
+ Paso 7: Marca las opciones si lo deseas y haz clic en Next.
+ Paso 8: Haz clic en Next.
+ Paso 9: Haz clic en Install. La duración de la instalación depende de la potencia de tu ordenador.
+
+
+ 
+ ## Instalacion de linux en maquina virtual VMware
+ 
+ Inicie VMware Workstation.
+Haga clic Nueva máquina virtual.
+Seleccione el tipo de máquina virtual que desea crear y haga clic en Home:
+[![wm-01.png](https://i.postimg.cc/nVGCYhYm/wm-01.png)](https://postimg.cc/bddyq85Y)
+
+Nota: Su elección depende parcialmente de la versión de hardware que desee que tenga la máquina virtual. 6).
+Personalizado: Esto le ofrece una opción para crear una máquina virtual y elegir su compatibilidad de hardware. Puede elegir entre Workstation 16.x, Workstation 15.x y Workstation 14.x .
+Típica: Esto crea una máquina virtual que tiene la misma versión de hardware que la versión de Workstation que está utilizando. Si utiliza Workstation 16.x, crea una máquina virtual con la versión 16 del hardware.
+
+Haga clic en Siguiente.
+Seleccione el sistema operativo invitado (SO) y, a continuación, haga clic Soy. Puede instalar el sistema operativo mediante:
+Un disco instalador (CD/DVD)
+Un archivo de imagen de disco (ISO) del instalador
+[![wm-02.png](https://i.postimg.cc/nzHtHpj8/wm-02.png)](https://postimg.cc/yJrGjqyn)
+ 
+Haga clic en Siguiente.
+Introduzca su clave de producto.
+
+Cree un nombre de usuario y una contraseña.
+
+Haga clic en Siguiente.
+
+Introduzca el nombre de una máquina virtual y especifique una ubicación para guardar los archivos de la máquina virtual. Haga clic en Socido.
+Establezca el tamaño de disco de la máquina virtual, seleccione si desea almacenar el disco virtual como un único archivo o dividir el disco virtual en archivos de 2 GB y haga clic en Máquelo .
+Compruebe el resto de opciones de configuración de la máquina virtual:
+Memoria : permite cambiar la cantidad de memoria asignada a la máquina virtual.
+Procesadores: cambie el número de procesadores, el número de núcleos por procesador y el motor de virtualización.
+CD/DVD: con una configuración avanzada donde puede elegir entre SCSI, IDE.
+Adaptador de red: configúrelo en modo de puente, NAT o solo host, o personalice dónde puede elegir entre 0 y 9 adaptadores.
+Controlador USB.
+Tarjeta de sonido.
+Pantalla : habilite los gráficos 3D.
+ 
+Haga clic en Finalizar.
+Cuando la máquina virtual está encendida, se inicia la VMware Tools de datos. Se le solicitará que reinicie la máquina virtual una vez que se complete la instalación de Tools.
+ 
+ 
+ 
 
 ## Instalación con linux nativo
 For this course, the Linux of choice is [Ubuntu 20.04 LTS](https://ubuntu.com/download/desktop "Ubuntu 20.04 LTS"). In this [link](https://www.tecmint.com/install-ubuntu-20-04-desktop/ "link") you will find a good installation tutorial.
@@ -50,6 +102,10 @@ For this course, the Linux of choice is [Ubuntu 20.04 LTS](https://ubuntu.com/do
 <p align="center">
 <img src="https://images.wondershare.com/recoverit/article/11/linux-vs-windows-8.jpg" alt="drawing" width="600"/>
 </p>
+
+
+
+
 
 ### ROS
 
