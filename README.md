@@ -307,7 +307,9 @@ mv prueba.txt prueba2.txt
 
 ## Catkin workspace
 
-It is an especial place where ROS packages are gonna be located and modified (your owns packages). You can have as many *workspaces* as you want, but for now let's create just one:
+1. You must first verify that the catkin tools are installed. In other wise,  Visit [here](https://catkin-tools.readthedocs.io/en/latest/installing.html#installing-on-ubuntu-with-apt-get). 
+
+2. It is an especial place where ROS packages are gonna be located and modified (your owns packages). You can have as many *workspaces* as you want, but for now let's create just one:
 
 ```console
 cd ~
