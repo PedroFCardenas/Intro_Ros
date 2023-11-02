@@ -1,4 +1,6 @@
 # Robotics - UNAL - Primeros Pasos ROS
+
+[TOC]
 ## Requirements
 Modern robotics relies on the versatile middleware known as ROS (Robotic Operative System). Some of the most useful tools in robotics run in this framework. Learning ROS could lead to insanity (jikes...) but fortunately with time and patience (tons of), all of you young padawans will master the power of ROS.
 
@@ -322,8 +324,8 @@ The previous lines create a folder named *catkin_ws*, it is the actual *workspac
 
 ------------
 
-## Turtlesim
-
+# Turtlesim
+============
 Now the real businesses.
 
 Clone the *hello_turtle* repo from [here](https://github.com/felipeg17/hello_turtle). It's a sort of hello world in the ROS community. Some changes have been added, but don't worry, during the class you will learn most of the concepts.
