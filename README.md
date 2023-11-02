@@ -327,7 +327,9 @@ The previous lines create a folder named *catkin_ws*, it is the actual *workspac
 ------------
 
 # Turtlesim
+
 ============
+
 Now the real businesses.
 
 Clone the *hello_turtle* repo from [here](https://github.com/felipeg17/hello_turtle). It's a sort of hello world in the ROS community. Some changes have been added, but don't worry, during the class you will learn most of the concepts.
